@@ -34,7 +34,7 @@ const LandingPage: React.FC = () => {
   
     try {
       // Make sure to adjust the URL to your backend endpoint
-      const response = await fetch('http://localhost:5000/api/upload', {
+      const response = await fetch('http://localhost:10000/api/upload', {
         method: 'POST',
         body: formData,
       });
