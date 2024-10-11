@@ -131,7 +131,7 @@ export const UserForm: React.FC = () => {
     
     setTimeout(async () => {
       try {
-        const response = await fetch('http://localhost:10000/api/submissions', {
+        const response = await fetch('https://tivara-takehome-backend.onrender.com/api/submissions', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
